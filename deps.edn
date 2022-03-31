@@ -1,0 +1,12 @@
+{:paths ["src"]
+
+ :deps
+ {io.github.clojure/tools.build
+  {:git/tag "v0.8.1" :git/sha "7d40500"}}
+
+ :aliases
+ {:test {:ns-default test}}}
+
+;; clj -X:test vwrite :v '"1.10.3"'
+;; clj -X:test vread :v '"1.11.0"'
+
